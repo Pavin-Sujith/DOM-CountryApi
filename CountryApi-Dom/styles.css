@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+body {
+    background: white;
+    padding: 20px 120px 20px 120px;
+    margin-bottom: 10px; 
+}
+
+.cards {
+    width: 250px;
+    height: 100%;
+    background-color: whitesmoke;
+    transition: 300ms ease-in-out;
+}
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 7px 7px 10px rgba(128, 128, 128, 0.336)
+    ;
+}
+.flag {
+    width: 100%;
+    padding: 0px;
+}
+.name {
+    font-family: 'Roboto Mono', monospace;
+    padding: 0.3em 0em;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+.text-content {
+    font-family: 'Zilla Slab', serif;
+    font-size: 1rem;
+    color: black;
+}
+.text-content > span {
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    color: black;
+}
+.content {
+    padding: 0.5em 1.2em;
+    line-height: 1.5;
+}
+.capital > span{
+    color: white;
+    background-color: green;
+    padding: 0em 0.5em;
+    border-radius: 5px;
+}
+#main {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+    place-items: center;
+    margin: 30px 0px;
+}
+.title {
+    font-size: 3rem;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 3px;
+    transition: 1s ease-in-out;
+    color: black;
+}
+.title:hover {
+    letter-spacing: 30px;  
+}
+
